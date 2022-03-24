@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__textArea {
+    background-color: var(--background);
+    border: 1px solid #000000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 80vw;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.form__textArea::placeholder {
+    color: #f5f6fa;
+}

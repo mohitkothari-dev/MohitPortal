@@ -1,0 +1,24 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #212B35;
+    width: 80vw;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.card__col1, .card__col2, .card__col3{
+    margin: 1vw;
+}
+
+.card__col__heading {
+    font-size: 20px;
+    font-weight: 600;
+}

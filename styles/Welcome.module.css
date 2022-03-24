@@ -1,0 +1,10 @@
+.welcome {
+    color: #f5f6fa;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.welcome__wave {
+    font-size: 48px;
+}
